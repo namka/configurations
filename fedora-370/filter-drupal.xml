@@ -6,7 +6,7 @@
      in the same directory as the fedora.cfcg file-->
  
 <FilterDrupal_Connection>
-  <connection server="localhost" dbname="drupal" user="root" password="test" port="3306">
+  <connection server="localhost" dbname="drupal" user="drupal" password="drupalAdmin" port="3306">
       <sql>
         <!--Different sql statement for each connection.  This is for drupal multisites that are setup using one database with
              table prefixes.  We don't do this but some people might.-->
